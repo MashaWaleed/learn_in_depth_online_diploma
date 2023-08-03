@@ -1,0 +1,37 @@
+/* startup_cortextM3.s
+ENG.Mohamed Waleed
+*/
+
+/*SRAM starts in 0x20000000*/
+
+.section .vectors
+.word   0x20001000      /*stack top*/
+.word   _reset          /*reset*/
+.word   Vector_handler  /* NMI */
+.word   Vector_handler  /* hard fault */
+.word   Vector_handler  /* mm fault */
+.word   Vector_handler  /* bus fault */
+.word   Vector_handler  /* usage fault */
+.word   Vector_handler  /* reserved */
+.word   Vector_handler  /* reserved */
+.word   Vector_handler  /* reserved */
+.word   Vector_handler  /* reserved */
+.word   Vector_handler  /* sv call */
+.word   Vector_handler  /* debug reserved */
+.word   Vector_handler  /* reserved */
+.word   Vector_handler  /* pendsv */
+.word   Vector_handler  /* systick */
+.word   Vector_handler  /* irq0 */
+.word   Vector_handler  /* irq1 */
+.word   Vector_handler  /* irq2 */
+.word   Vector_handler  /* ..... */
+
+
+.section .text
+_reset:
+	bl main
+	b .
+
+.thumb_func
+Vector_handler:
+	b _reset
