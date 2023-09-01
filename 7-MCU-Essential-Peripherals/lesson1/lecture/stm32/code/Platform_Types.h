@@ -37,7 +37,7 @@ typedef volatile unsigned char          vu8;
 typedef volatile signed char            vs8;
 
 // SHORT TYPE 16-BIT
-typedef unsigned short                  u6;
+typedef unsigned short                  u16;
 typedef signed short                    s16;
 typedef volatile unsigned short         vu16;
 typedef volatile signed short           vs16;
