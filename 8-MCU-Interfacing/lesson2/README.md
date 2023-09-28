@@ -1,6 +1,2 @@
 # Video
-
-<video controls width="640" height="360">
-  <source src="https://i.imgur.com/tEu2PxW.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://youtu.be/nx7Ih79KevE?si=tDKHzCGE1e-DFpRm
