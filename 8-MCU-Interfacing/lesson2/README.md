@@ -1,2 +1,2 @@
 # Video
-https://youtu.be/nx7Ih79KevE?si=tDKHzCGE1e-DFpRm
+[Imgur](https://i.imgur.com/tEu2PxW.mp4)
