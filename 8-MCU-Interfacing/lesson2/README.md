@@ -1,6 +1,3 @@
 # Video
+[![Thumbnail](https://i.imgur.com/tEu2PxW.jpg)](https://i.imgur.com/tEu2PxW.mp4)
 
-<video controls width="640" height="360">
-  <source src="https://i.imgur.com/tEu2PxW.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
