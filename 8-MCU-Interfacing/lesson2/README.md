@@ -1,1 +1,1 @@
-![Alt Text](https://github.com/MashaWaleed/learn_in_depth_online_diploma/raw/main/8-MCU-Interfacing/lesson2/README%20files/llll.mkv)
+![Alt Text](https://imgur.com/tEu2PxW)
