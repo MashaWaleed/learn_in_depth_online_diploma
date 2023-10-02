@@ -1,0 +1,8 @@
+../Src/RCC_program.c:22:5:PLL_MUL_Calculator	16	static
+../Src/RCC_program.c:49:16:MCAL_RCC_InitSysClock	16	static
+../Src/RCC_program.c:140:16:MCAL_RCC_EnablePeripheral	24	static
+../Src/RCC_program.c:172:16:MCAL_RCC_DisablePeripheral	24	static
+../Src/RCC_program.c:204:10:MCAL_RCC_GetSYSCLK	4	static
+../Src/RCC_program.c:216:10:MCAL_RCC_GetHCLK	8	static
+../Src/RCC_program.c:220:10:MCAL_RCC_GetPCLK1	8	static
+../Src/RCC_program.c:224:10:MCAL_RCC_GetPCLK2	8	static
